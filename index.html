@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
-    
+<body class="bg-secondary-subtle">
+    <div class="container-fluid text-bg-dark">
+        <h1>Todo Tecnologia</h1>
+    </div>
+    <main>
+        <!--Noticias principales-->
+        <article class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="imagenes/img01.jpg" class="card-img-top" alt="noticia">
+                        <div class="card-body">
+                            <h5 class="card-title">primera noticia</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.e</h6>                            <p class="fs-5"> Autem praesentium sequi atque veniam voluptate optio, possimus facilis ipsa natus animi blanditiis rerum hic repudiandae reprehenderit doloremque, labore, sit nisi id!.</p>
+                            <a class="btn btn-primary btn-lg" href="noticia.html">mas info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                            <img src="imagenes/oppenheimer.jpg" class="img-fluid rounded-start" alt="noticia 2">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">segunda noticia</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium sequi atque veniam voluptate optio, possimus facilis ipsa natus animi blanditiis rerum hic repudiandae reprehenderit doloremque, labore, sit nisi id!.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Actualizado hace 3 mins</small></p>
+                                    <button type="button" class="btn btn-dark" onclick="window.location.href='noticia.html';">mas info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!--Noticias principales-->
+        <!--Noticias secundarias-->
+        <article class="container bg-body-tertiary">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>segunda noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium sequi atque veniam voluptate optio, possimus facilis ipsa natus animi blanditiis rerum hic repudiandae reprehenderit doloremque, labore, sit nisi id!.</p>
+                </div>
+                <div class="col-sm-3 text-end">
+                    <h2>tercera noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium sequi atque veniam voluptate optio, possimus facilis ipsa natus animi blanditiis rerum hic repudiandae reprehenderit doloremque, labore, sit nisi id!.</p>
+                </div>
+                <div class="col-sm-3 text-end">
+                    <h2>cuarta noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium sequi atque veniam voluptate optio, possimus facilis ipsa natus animi blanditiis rerum hic repudiandae reprehenderit doloremque, labore, sit nisi id!.</p>    
+                </div>
+            </div>
+        </article>
+        <!--Noticias secundarias-->
+        <!--Otras noticias-->
+        <article class="container bg-body-tertiary">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 text-center">
+                <div class="col bg-dark-subtle">
+                    <h2>segunda noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium sequi atque veniam voluptate optio, possimus facilis ipsa natus animi blanditiis rerum hic repudiandae reprehenderit doloremque, labore, sit nisi id!.</p>
+                </div>
+                <div class="col">
+                    <h2>tercera noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium sequi atque veniam voluptate optio, possimus facilis ipsa natus animi blanditiis rerum hic repudiandae reprehenderit doloremque, labore, sit nisi id!.</p>
+                </div>
+                <div class="col bg-dark-subtle">
+                    <h2>cuarta noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium sequi atque veniam voluptate optio, possimus facilis ipsa natus animi blanditiis rerum hic repudiandae reprehenderit doloremque, labore, sit nisi id!.</p>
+                </div>
+                <div class="col">
+                    <h2>quinta noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium sequi atque veniam voluptate optio, possimus facilis ipsa natus animi blanditiis rerum hic repudiandae reprehenderit doloremque, labore, sit nisi id!.</p>
+                </div>
+                <div class="col bg-dark-subtle">
+                    <h2>sexta noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium sequi atque veniam voluptate optio, possimus facilis ipsa natus animi blanditiis rerum hic repudiandae reprehenderit doloremque, labore, sit nisi id!.</p>
+                </div>
+            </div>
+        </article>
+        <!--Otras noticias-->
+    </main>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
